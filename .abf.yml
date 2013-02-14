@@ -1,2 +1,4 @@
+removed_sources:
+  proto_0.3-9.2.tar.gz: c2265c90bfb88727c0b65953929defef22cebcdb
 sources:
-  "proto_0.3-9.2.tar.gz:"	c2265c90bfb88727c0b65953929defef22cebcdb
+  proto_0.3-10.tar.gz: cf5132335b810d73e1e828ae04ce7f151f771051

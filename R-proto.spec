@@ -1,14 +1,16 @@
 %global packname  proto
 %global rlibdir  %{_libdir}/R/library
 
+%define debug_package %{nil}
+
 Name:             R-%{packname}
-Version:          0.3_9.2
+Version:          0.3.10
 Release:          1
 Summary:          Prototype object-based programming
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.3-9.2.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/proto_0.3-10.tar.gz
 Requires:         R-graph R-Rgraphviz 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 BuildRequires:    R-graph R-Rgraphviz 
